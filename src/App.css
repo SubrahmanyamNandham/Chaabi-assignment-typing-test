@@ -1,0 +1,72 @@
+
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: rgba(209, 156, 183, 0.8);
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img {
+  height: 50px;
+padding: 35px;
+}
+
+.timer {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.time{
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  width:60vw;
+  height: 20vh;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #323f4b;
+}
+
+.submit{
+  width:20vw;
+  color: aliceblue;
+  height: 6vh;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  margin-left: 250px;
+  background-color: rgb(77, 8, 138);
+  border-radius: 10px;
+}
+
+.heading {
+  color: #b72598;
+  font-family: "Roboto";
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.para{
+  font-family: "Roboto";
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 400;
+  color: #323f4b;
+}
+.type{
+  font-family: "Roboto";
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
